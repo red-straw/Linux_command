@@ -1,0 +1,25 @@
+○ 컴파일러 설치하기
+$ sudo apt install gcc
+
+○ 코딩
+$ vi main.c
+
+i
+
+#include <stdio.h>
+int main(){
+        printf("Hello!\n");
+}
+
+
+모드변경: ESC (ESC 키를 누름)
+
+저장: Shift+z z (쉬프트를 누르고 z을 두번 누름)
+
+○ 컴파일
+$ gcc -o main main.c
+
+○ 실행
+$ ./main
+
+Hello!
